@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+    <header>
+      <h1>Current Weather</h1>
+    </header>
+
+    <main id="location"></main>
+      <section id="weather">
+        <h2> </h2>
+        <a href="https://www.google.com/maps/search/?api=1&query=40.7143,-74.006" target="_BLANK">Click to view map</a>
+        <img src="https://openweathermap.org/img/wn/01n@2x.png">
+          <p> </p>
+
+        <br>
+
+        <p>Current:  </p>
+        <p>Feels Like:  </p>
+
+        <br>
+      </section>
+
+      <form>
+        <input name="search" id="weather-search" type="text" placeholder=" ">
+        <label for"weather-search"> Enter Location</label>
+        <button type"submit">Search</button>
+      </form>
+
+    <footer>
+      <p>Enjoy the day!</p>
+    </footer>
+
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
