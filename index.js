@@ -18,7 +18,7 @@ form.addEventListener('submit', function(e) {
     h2.textContent = data.city_name + ", " + data.state_code
 
     div.appendChild(h2)
-    location.appendChild(div)
+    weather.appendChild(div)
 
 
   })
